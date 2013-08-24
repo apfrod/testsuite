@@ -1,0 +1,21 @@
+{
+  "name": "testsuite",
+  "version": "0.0.0",
+  "description": "An example test suite using mocha and webdriver, with configuration using command-line options.",
+  "main": "test/",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "dependencies": {
+    "webdriverjs" : "*",
+    "mocha" : "*",
+    "commander": "*",
+    "expect.js" : "*"
+  },
+  "repository": "https://github.com/apfrod/testsuite",
+  "author": "apfrod <paul@apfrod.com>",
+  "license": "BSD"
+}
