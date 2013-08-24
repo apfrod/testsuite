@@ -1,7 +1,7 @@
 Mocha Webdriver Test Suite Example
 ==================================
 
-An example test suite using mocha and webdriver, with configuration using command-line options.
+An example mocha test suite using webdriver, with configuration using command-line options.
 
 ### Usage
 
@@ -47,3 +47,5 @@ Options can also be put into the file 'test.opts'. test/mocha.opts is also provi
 +    [webdriverjs](https://github.com/camme/webdriverjs)
 +    [commander](http://visionmedia.github.io/commander.js/)
 +    [mocha](http://visionmedia.github.io/mocha/)
++    [selenium](http://docs.seleniumhq.org/)
++    [phantomjs](http://phantomjs.org/)
